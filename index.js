@@ -36,11 +36,11 @@ const getVideoDetails = (video) => {
 // .then(result => console.log(result))
 
 // Call the functions (with async/await)
-// const alltogether = async () => {
-//   const token = await loginUser ("jane doe", "jane@janedoe.com")
-//   const video = await getYourVideos('abc123')
-//   const videoDetails = await getVideoDetails('videos[1]')
-//   console.log(videoDetails)
-// }
+const alltogether = async () => {
+  const token = await loginUser ("jane doe", "jane@janedoe.com")
+  const video = await getYourVideos('abc123')
+  const videoDetails = await getVideoDetails('videos[1]')
+  console.log(videoDetails)
+}
 
-// alltogether();
+alltogether();
