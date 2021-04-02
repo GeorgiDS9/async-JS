@@ -1,6 +1,6 @@
 // Callbacks - Promises - Async/Await
 
-// Three functions to be executed asynchronously
+// Define three functions to be executed asynchronously
 
 const loginUser = (email, password) => {
   return new Promise((resolve, reject) => {
@@ -29,13 +29,13 @@ const getVideoDetails = (video) => {
   });
 };
 
-// Call the function (with promises)
+// Call the functions (with promises)
 // loginUser("jane doe", "jane@janedoe.com")
 // .then(token => getYourVideos(token))
 // .then(videos => getVideoDetails(videos[1]))
 // .then(result => console.log(result))
 
-// Call the function (with async/await)
+// Call the functions (with async/await)
 // const alltogether = async () => {
 //   const token = await loginUser ("jane doe", "jane@janedoe.com")
 //   const video = await getYourVideos('abc123')
